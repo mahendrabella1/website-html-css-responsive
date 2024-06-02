@@ -1,0 +1,142 @@
+body{
+    font-family: 'Lato',sans-serif;
+    color: white;
+    background-image: url(nainoa-shizuru-NcdG9mK3PBY-unsplash\ \(1\).jpg
+    );
+    background-position-y:-900px ;
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;
+    margin: 0;
+}
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.header{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   width: 1150px;
+   margin-left: auto;
+   margin-right: auto;
+   animation: fade-in 0.5s;
+   margin-top: 10px;
+}
+.logo{
+font-size: 18px;
+font-weight: bold;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+}
+.link-item{
+margin-right: 30px;
+}
+.link{
+    text-decoration: none;
+    color: rgba(255,255,255,0.75);
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.5s;
+}
+.link:hover{
+    color: rgb(255, 255, 255,1);
+}
+.main{
+text-align: center;
+margin-top: 130px;
+animation: fade-in 0.5s 0.1s backwards;
+}
+.heading{
+font-size: 65px;
+font-weight: 800;
+margin-bottom: 22px;
+max-width: 550px;
+margin-left: auto;
+margin-right: auto;
+line-height: 0.9;
+}
+.text--bold{
+    font-weight: 700;
+}
+.form{
+    margin-top: 60px;
+}
+.input{
+    width: 511px;
+    height: 64px;
+    border: none;
+    padding: 0px;
+    border-radius: 3px;
+    opacity: 0.7;
+    padding-left: 30px;
+    font-size: 17px;
+    font:inherit;
+    outline: none;
+    transition: all 0.4s;
+}
+.input:focus{
+    opacity: 1;
+}
+.input::placeholder{
+    color: black;
+}
+.btn{
+    background-color: black;
+    color: white;
+    height: 64px;
+    width: 103px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.8;
+    transition: opacity 0.4s;
+}
+.btn:hover{
+    opacity:1;
+}
+.text{
+    font-size: 24px;
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.8;
+    line-height: 1.4;
+    
+}
+.footer{
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid grey;
+    color: rgba(255,255,255,0.5);
+    animation: fade-in 0.5s 0.2s backwards;
+}
+.copyright{
+
+}
+.stats{
+
+}
+.avv{
+    display: flex;
+    justify-content: space-between;
+}
